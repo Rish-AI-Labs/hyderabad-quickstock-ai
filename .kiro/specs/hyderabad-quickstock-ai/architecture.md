@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This document provides a comprehensive technical architecture for Hyderabad QuickStock AI, a scalable, secure AI platform designed for hyper-local quick commerce demand forecasting with conversational AI copilot capabilities. The architecture leverages AWS managed services to deliver probabilistic demand predictions, reduce inventory waste by 20-30%, and provide interactive insights for quick commerce platforms operating in the volatile Hyderabad market.
+This document provides a comprehensive technical architecture for Hyderabad QuickStock AI, a scalable, secure AI platform designed for hyper-local quick commerce demand forecasting with conversational AI Intelligence capabilities. The architecture leverages AWS managed services to deliver probabilistic demand predictions, reduce inventory waste by 20-30%, and provide interactive insights for quick commerce platforms operating in the volatile Hyderabad market.
 
 The system combines advanced AI capabilities including pretrained time-series models (Amazon SageMaker Canvas), generative AI foundation models (Amazon Bedrock), and agentic workflows (Amazon Bedrock Agents) to create a comprehensive demand forecasting solution that can handle the complexity of monsoons, festivals, viral trends, and 10-30 minute delivery pressures characteristic of Indian quick commerce.
 
@@ -11,7 +11,7 @@ The system combines advanced AI capabilities including pretrained time-series mo
 
 The Hyderabad QuickStock AI platform follows a cloud-native, serverless-first architecture with five primary layers:
 
-1. **User Interaction Layer**: Web dashboard and conversational AI copilot interface
+1. **User Interaction Layer**: Web dashboard and conversational AI Intelligence interface
 2. **API Gateway Layer**: Secure, scalable API endpoints with authentication and rate limiting
 3. **AI Processing Layer**: Core forecasting engine with agentic workflows and generative AI
 4. **Data Management Layer**: Durable storage, processing, and analytics capabilities
@@ -26,7 +26,7 @@ The end-to-end system flow enables users to upload historical sales data, integr
 **Components:**
 - **Amazon QuickSight Embedded**: Interactive dashboards with forecast visualizations, confidence intervals, and drill-down capabilities
 - **Web Application Frontend**: React-based responsive interface hosted on Amazon S3 with CloudFront CDN
-- **AI Copilot Chat Interface**: Real-time conversational interface integrated with Bedrock Agents
+- **AI Intelligence Chat Interface**: Real-time conversational interface integrated with Bedrock Agents
 
 **Connections:**
 - QuickSight connects to DynamoDB and Timestream for real-time data visualization
@@ -211,7 +211,7 @@ Step 7: QuickSight refreshes → embedded dashboards with new forecast visualiza
 Step 8: Webhook notifications → delivered to registered quick commerce platforms
 ```
 
-### 3. Conversational AI Copilot Flow
+### 3. Conversational AI Intelligence Flow
 
 ```
 Step 1: User natural language query → API Gateway → WebSocket connection

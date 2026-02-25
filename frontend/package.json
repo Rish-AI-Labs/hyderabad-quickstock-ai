@@ -1,0 +1,44 @@
+{
+  "name": "quickstock-ai-dashboard",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.525.0",
+    "@aws-sdk/client-dynamodb": "^3.525.0",
+    "@aws-sdk/client-s3": "^3.525.0",
+    "@aws-sdk/client-sagemaker-runtime": "^3.525.0",
+    "@google/genai": "^1.42.0",
+    "@headlessui/react": "^1.7.18",
+    "@tailwindcss/typography": "^0.5.19",
+    "autoprefixer": "^10.4.17",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "date-fns": "^3.3.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "lucide-react": "^0.344.0",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^6.22.0",
+    "recharts": "^2.12.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node --env-file=.env server/index.js\"",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start-server": "node --env-file=.env server/index.js"
+  }
+}

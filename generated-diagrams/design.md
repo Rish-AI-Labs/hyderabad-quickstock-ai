@@ -4,7 +4,7 @@
 
 Hyderabad QuickStock AI is a cloud-native, AI-powered demand forecasting platform built on AWS managed services. The system leverages advanced AI capabilities including Amazon SageMaker for time-series forecasting, Amazon Bedrock for generative AI and agentic workflows, and Amazon QuickSight for embedded analytics. The architecture follows serverless-first principles to ensure scalability, security, and cost-effectiveness while providing hyper-local demand predictions for quick commerce platforms.
 
-The system processes historical sales data, external signals (weather, events, traffic), and generates probabilistic forecasts with confidence intervals. A conversation AI Intelligence powered by Amazon Bedrock Agents provides natural language interaction for insights, what-if scenarios, and recommendations.
+The system processes historical sales data, external signals (weather, events, traffic), and generates probabilistic forecasts with confidence intervals. A conversational AI Intelligence powered by Amazon Bedrock Agents provides natural language interaction for insights, what-if scenarios, and recommendations.
 
 ## Architecture
 
